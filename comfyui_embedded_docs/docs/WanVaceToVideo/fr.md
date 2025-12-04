@@ -24,7 +24,7 @@ Le nœud WanVaceToVideo traite les données de conditionnement vidéo pour les m
 
 | Nom de sortie | Type de données | Description |
 |-------------|-----------|-------------|
-| `négatif` | CONDITIONING | Conditionnement positif avec les données de contrôle vidéo appliquées |
-| `latent` | CONDITIONING | Conditionnement négatif avec les données de contrôle vidéo appliquées |
-| `latent_coupé` | LATENT | Tenseur latent vide prêt pour la génération vidéo |
-| `trim_latent` | INT | Nombre de trames latentes à rogner lorsque l'image de référence est utilisée |
+| `positif` | CONDITIONING | Conditionnement positif avec les données de contrôle vidéo appliquées |
+| `négatif` | CONDITIONING | Conditionnement négatif avec les données de contrôle vidéo appliquées |
+| `latent` | LATENT | Tenseur latent prêt pour la génération vidéo |
+| `latent_coupé` | INT | Nombre de trames latentes à rogner lorsque l'image de référence est utilisée |
